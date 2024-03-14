@@ -2,6 +2,8 @@
 
 The purpose of this project is to use SW4 to simulate seismic waves on Southern Vancouver Island. Our main objective is to produce different kinds of waveforms from seismic events with different parameters. We methodically create simulations that closely resemble actual seismic events, taking inputs from the Tim's catalog to improve our comprehension of seismic behavior in this area.
 
+Here's the original repository of sw4: https://github.com/geodynamics/sw4.
+
 ## List of Files and Their Purposes:
 
 - **ProblemSetup_SVI.ipynb**: This notebook contains the setup and configuration for SW4 simulations specific to Southern Vancouver Island. It sets up event and station locations, processes velocity model data, visualizes model boundaries, computes grid spacing, and creates input files for SW4 simulations, among other seismic wave simulation-related duties.
