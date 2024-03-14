@@ -1,0 +1,75 @@
+# SW4 input file
+
+grid x=50e3 y=50e3 z=50e3 lat=48.0 lon=-124.0 az=0 h=100
+
+topography input=grid file=VCI.topo zmax=4000 order=3
+
+# attenuation nmech=1
+
+fileio path=vci-results
+
+# the pfile should define the material in all points
+pfile filename=VancouverIsland.ppmod smoothingsize=4
+# block vp=1.7320508076e+03 vs=1000 rho=1500
+# made up event
+source x=25e3 y=25e3 z=10e3 m0=1e19 strike=45 dip=90 rake=180 type=GaussianInt freq=1.0 t0=6
+
+#time steps=0
+time t=60 
+
+# images
+# topography (requires the topography command to be enabled)
+image mode=topo z=0 cycle=0 file=g
+
+image mode=lat z=0  cycle=0 file=g
+image mode=lon z=0  cycle=0 file=g
+
+#image mode=p z=0 cycle=0 file=g
+
+image mode=p y=50e3 cycle=0 file=g
+
+image mode=velmag z=0.0 timeInterval=5 file=g
+image mode=velcurl z=0.0 timeInterval=5 file=g
+# SW4 input file
+
+grid x=50e3 y=50e3 z=50e3 lat=48.0 lon=-124.0 az=0 h=100
+
+topography input=grid file=VCI.topo zmax=4000 order=3
+
+# attenuation nmech=1
+
+fileio path=vci-results
+
+# the pfile should define the material in all points
+pfile filename=VancouverIsland.ppmod smoothingsize=4
+# block vp=1.7320508076e+03 vs=1000 rho=1500
+# made up event
+source x=25e3 y=25e3 z=10e3 m0=1e19 strike=45 dip=90 rake=180 type=GaussianInt freq=1.0 t0=6
+
+#time steps=0
+time t=60 
+
+# images
+# topography (requires the topography command to be enabled)
+image mode=topo z=0 cycle=0 file=g
+
+image mode=lat z=0  cycle=0 file=g
+image mode=lon z=0  cycle=0 file=g
+
+#image mode=p z=0 cycle=0 file=g
+
+image mode=p y=50e3 cycle=0 file=g
+
+image mode=velmag z=0.0 timeInterval=5 file=g
+image mode=velcurl z=0.0 timeInterval=5 file=g
+
+image mode=hvelmax z=0.0 time=50 file=g
+
+# Time history at a reciever station. Save North, East, Vertical velocity components
+# on the USGS text format
+rec lat=48.631 lon=-123.681 depth=0 nsew=1 variables=velocity file=MGCB usgsformat=1 sacformat=0
+image mode=hvelmax z=0.0 time=50 file=g
+
+# Time history at a reciever station. Save North, East, Vertical velocity components
+# on the USGS text format
+rec lat=48.631 lon=-123.681 depth=0 nsew=1 variables=velocity file=MGCB usgsformat=1 sacformat=0
