@@ -1,0 +1,59 @@
+# Example of a input file run for NLLOC
+### has to be modified for my stuff + create a slurm script to produce a run per day
+
+# Sets various general program control parameters.
+CONTROL 1 12345
+
+# Sets geographic to working coordinates transformation parameters.
+### lat and lon origin + rotation = have to define the rectangular coordinates
+TRANS SIMPLE  43.65  -128.35 0.0
+
+LOCSIG Lois Papin -- UO
+
+# Specifies the directory path and filenames for observation files + input time grids + output files
+### have to create the directories and files (specially the grid)
+LOCFILES /projects/amt/cyrilj/NLLoc/BTF/obs/obs_pyocto/CNN_P_01_PBPN/2012/obs_CNN_P_01_PBPN_2012_300.obs NLLOC_OBS /projects/amt/cyrilj/NLLoc/BTF/pykonal/ttgrid_1D_averaged_Christeson/ttgrid /projects/amt/cyrilj/NLLoc/BTF/loc/loc_pyocto/CNN_P_01_PBPN/2012_run1/300/earthquake_pyocto
+
+# Specifies the filetypes to be used for output.
+# SAVE_NLLOC_ALL: save summary and event files of type NLLoc Hypocenter-Phase file , Phase Statistics file , Scatter file and Confidence Level file
+# SAVE_HYPOINV_SUM:save summary file only of type HypoInverse Archive file
+LOCHYPOUT SAVE_NLLOC_ALL SAVE_HYPOINV_SUM
+
+# Specifies the search type and search parameters in the grid.
+# OCT:Octtree
+### changing something?
+LOCSEARCH OCT 17 11 6 0.001 100000 10000 0 0
+
+# Specifies the location method (algorithm) and method parameters.
+# EDT_OT_WT:weights EDT-sum probabilities by the variance of origin-time estimates over all pairs of readings. 
+LOCMETH EDT_OT_WT 9999.0 4 -1 -1 -1 -1 -1 1
+
+# Specifies parameters for Gaussian modelisation-error covariances between stations.
+LOCGAU 0.2 0.0
+
+# Specifies parameters for travel-time dependent modelisation-error.
+LOCGAU2 0.01 0.05 2.0
+
+# Specifies the mapping of phase codes in the phase/observation file.
+### should be optional since no change is made
+LOCPHASEID  P   P
+LOCPHASEID  S   S
+
+# Specifies the mapping of phase pick qualities phase/observation file to time uncertainties in seconds.
+### should be optional since no change is made
+LOCQUAL2ERR 0.1 0.5 1.0 2.0 99999.9
+
+# Specifies the size and other parameters of an initial or nested 3D search grid.
+### have to made it my own
+LOCGRID  459 300 24 -229.1281 -149.9985 -3.0  1.0 1.0 1.0  PROB_DENSITY  SAVE
+
+# Specifies selection criteria for phase residuals to be included in calculation of average P and S station residuals.
+LOCPHSTAT 9999.0 -1 9999.0 1.0 1.0 9999.9 -9999.9 9999.9
+
+# Specifies whether to determine take-off angles for the maximum likelihood hypocenter and sets minimum quality cutoff for saving angles and corresponding phases to the HypoInverse Archive file.
+### should be optional since no change is made
+LOCANGLES ANGLES_YES 5
+
+# Specifies the magnitude calculation type and parameters. 
+# ML_HB:local Richer magnitude
+LOCMAG ML_HB 1.0 1.110 0.00189

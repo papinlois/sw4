@@ -1,0 +1,1042 @@
+{
+    "001": {
+        "min_p_wave": 5.908,
+        "mean_diff": 5.424,
+        "min_s_wave": 10.205,
+        "max_s_wave": 16.347,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "002": {
+        "min_p_wave": 6.444,
+        "mean_diff": 5.415,
+        "min_s_wave": 11.14,
+        "max_s_wave": 19.464,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "003": {
+        "min_p_wave": 8.89,
+        "mean_diff": 7.194,
+        "min_s_wave": 15.284,
+        "max_s_wave": 23.013,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "005": {
+        "min_p_wave": 5.801,
+        "mean_diff": 5.079,
+        "min_s_wave": 10.008,
+        "max_s_wave": 15.714,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "006": {
+        "min_p_wave": 5.443,
+        "mean_diff": 5.21,
+        "min_s_wave": 9.402,
+        "max_s_wave": 15.959,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "007": {
+        "min_p_wave": 8.882,
+        "mean_diff": 7.152,
+        "min_s_wave": 15.357,
+        "max_s_wave": 20.647,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "010": {
+        "min_p_wave": 6.908,
+        "mean_diff": 5.856,
+        "min_s_wave": 11.924,
+        "max_s_wave": 17.02,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "012": {
+        "min_p_wave": 6.702,
+        "mean_diff": 5.505,
+        "min_s_wave": 11.517,
+        "max_s_wave": 18.644,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "015": {
+        "min_p_wave": 5.222,
+        "mean_diff": 5.194,
+        "min_s_wave": 9.022,
+        "max_s_wave": 16.065,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "017": {
+        "min_p_wave": 5.385,
+        "mean_diff": 4.877,
+        "min_s_wave": 9.286,
+        "max_s_wave": 14.43,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "019": {
+        "min_p_wave": 6.479,
+        "mean_diff": 5.456,
+        "min_s_wave": 11.172,
+        "max_s_wave": 17.449,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "020": {
+        "min_p_wave": 5.706,
+        "mean_diff": 5.809,
+        "min_s_wave": 9.886,
+        "max_s_wave": 18.809,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "021": {
+        "min_p_wave": 6.254,
+        "mean_diff": 5.336,
+        "min_s_wave": 10.78,
+        "max_s_wave": 16.876,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "022": {
+        "min_p_wave": 6.079,
+        "mean_diff": 5.056,
+        "min_s_wave": 10.417,
+        "max_s_wave": 17.893,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "023": {
+        "min_p_wave": 8.627,
+        "mean_diff": 8.191,
+        "min_s_wave": 14.666,
+        "max_s_wave": 29.044,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "026": {
+        "min_p_wave": 7.553,
+        "mean_diff": 7.222,
+        "min_s_wave": 12.819,
+        "max_s_wave": 26.636,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "030": {
+        "min_p_wave": 5.238,
+        "mean_diff": 6.578,
+        "min_s_wave": 9.041,
+        "max_s_wave": 21.754,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "031": {
+        "min_p_wave": 6.987,
+        "mean_diff": 6.065,
+        "min_s_wave": 12.119,
+        "max_s_wave": 18.544,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "032": {
+        "min_p_wave": 8.795,
+        "mean_diff": 7.187,
+        "min_s_wave": 15.204,
+        "max_s_wave": 20.227,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "034": {
+        "min_p_wave": 8.462,
+        "mean_diff": 7.197,
+        "min_s_wave": 14.516,
+        "max_s_wave": 24.109,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "036": {
+        "min_p_wave": 7.765,
+        "mean_diff": 6.755,
+        "min_s_wave": 13.291,
+        "max_s_wave": 23.609,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "037": {
+        "min_p_wave": 5.708,
+        "mean_diff": 4.921,
+        "min_s_wave": 9.845,
+        "max_s_wave": 16.185,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "038": {
+        "min_p_wave": 7.657,
+        "mean_diff": 6.331,
+        "min_s_wave": 13.214,
+        "max_s_wave": 18.434,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "040": {
+        "min_p_wave": 6.21,
+        "mean_diff": 5.267,
+        "min_s_wave": 10.675,
+        "max_s_wave": 20.455,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "041": {
+        "min_p_wave": 8.643,
+        "mean_diff": 7.104,
+        "min_s_wave": 14.853,
+        "max_s_wave": 23.179,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "043": {
+        "min_p_wave": 5.818,
+        "mean_diff": 5.083,
+        "min_s_wave": 10.035,
+        "max_s_wave": 15.924,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "045": {
+        "min_p_wave": 6.566,
+        "mean_diff": 5.76,
+        "min_s_wave": 11.327,
+        "max_s_wave": 17.099,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "047": {
+        "min_p_wave": 6.236,
+        "mean_diff": 5.264,
+        "min_s_wave": 10.755,
+        "max_s_wave": 18.266,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "049": {
+        "min_p_wave": 7.978,
+        "mean_diff": 6.484,
+        "min_s_wave": 13.769,
+        "max_s_wave": 19.483,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "052": {
+        "min_p_wave": 5.75,
+        "mean_diff": 5.673,
+        "min_s_wave": 9.948,
+        "max_s_wave": 18.08,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "053": {
+        "min_p_wave": 6.079,
+        "mean_diff": 5.056,
+        "min_s_wave": 10.417,
+        "max_s_wave": 17.893,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "055": {
+        "min_p_wave": 8.628,
+        "mean_diff": 8.199,
+        "min_s_wave": 14.667,
+        "max_s_wave": 29.086,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "058": {
+        "min_p_wave": 5.286,
+        "mean_diff": 4.993,
+        "min_s_wave": 9.128,
+        "max_s_wave": 15.227,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "061": {
+        "min_p_wave": 9.235,
+        "mean_diff": 8.614,
+        "min_s_wave": 15.755,
+        "max_s_wave": 29.684,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "062": {
+        "min_p_wave": 5.657,
+        "mean_diff": 5.335,
+        "min_s_wave": 9.779,
+        "max_s_wave": 16.628,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "063": {
+        "min_p_wave": 5.654,
+        "mean_diff": 5.747,
+        "min_s_wave": 9.797,
+        "max_s_wave": 18.582,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "065": {
+        "min_p_wave": 6.03,
+        "mean_diff": 5.058,
+        "min_s_wave": 10.378,
+        "max_s_wave": 17.646,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "066": {
+        "min_p_wave": 8.526,
+        "mean_diff": 7.04,
+        "min_s_wave": 14.734,
+        "max_s_wave": 20.106,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "068": {
+        "min_p_wave": 5.585,
+        "mean_diff": 4.872,
+        "min_s_wave": 9.633,
+        "max_s_wave": 15.856,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "070": {
+        "min_p_wave": 6.071,
+        "mean_diff": 5.096,
+        "min_s_wave": 10.41,
+        "max_s_wave": 17.435,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "074": {
+        "min_p_wave": 9.739,
+        "mean_diff": 7.782,
+        "min_s_wave": 16.871,
+        "max_s_wave": 21.798,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "076": {
+        "min_p_wave": 6.58,
+        "mean_diff": 5.941,
+        "min_s_wave": 11.365,
+        "max_s_wave": 17.867,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "078": {
+        "min_p_wave": 6.255,
+        "mean_diff": 5.267,
+        "min_s_wave": 10.737,
+        "max_s_wave": 15.69,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "099": {
+        "min_p_wave": 5.474,
+        "mean_diff": 5.031,
+        "min_s_wave": 9.438,
+        "max_s_wave": 15.166,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "101": {
+        "min_p_wave": 5.677,
+        "mean_diff": 5.0,
+        "min_s_wave": 9.789,
+        "max_s_wave": 15.592,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "102": {
+        "min_p_wave": 5.188,
+        "mean_diff": 4.986,
+        "min_s_wave": 8.963,
+        "max_s_wave": 15.358,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "113": {
+        "min_p_wave": 5.785,
+        "mean_diff": 6.326,
+        "min_s_wave": 9.996,
+        "max_s_wave": 20.758,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "121": {
+        "min_p_wave": 5.137,
+        "mean_diff": 5.001,
+        "min_s_wave": 8.869,
+        "max_s_wave": 15.535,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "125": {
+        "min_p_wave": 5.948,
+        "mean_diff": 5.055,
+        "min_s_wave": 10.252,
+        "max_s_wave": 17.052,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "127": {
+        "min_p_wave": 8.235,
+        "mean_diff": 6.63,
+        "min_s_wave": 14.244,
+        "max_s_wave": 20.279,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "132": {
+        "min_p_wave": 6.988,
+        "mean_diff": 6.106,
+        "min_s_wave": 12.055,
+        "max_s_wave": 18.089,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "141": {
+        "min_p_wave": 5.364,
+        "mean_diff": 4.977,
+        "min_s_wave": 9.255,
+        "max_s_wave": 14.921,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "142": {
+        "min_p_wave": 8.686,
+        "mean_diff": 6.942,
+        "min_s_wave": 15.03,
+        "max_s_wave": 21.179,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "144": {
+        "min_p_wave": 5.151,
+        "mean_diff": 4.918,
+        "min_s_wave": 8.89,
+        "max_s_wave": 15.1,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "145": {
+        "min_p_wave": 6.776,
+        "mean_diff": 5.647,
+        "min_s_wave": 11.711,
+        "max_s_wave": 19.543,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "147": {
+        "min_p_wave": 5.497,
+        "mean_diff": 4.892,
+        "min_s_wave": 9.482,
+        "max_s_wave": 15.131,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "152": {
+        "min_p_wave": 5.782,
+        "mean_diff": 5.102,
+        "min_s_wave": 9.973,
+        "max_s_wave": 15.506,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "154": {
+        "min_p_wave": 8.613,
+        "mean_diff": 6.888,
+        "min_s_wave": 14.897,
+        "max_s_wave": 20.713,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "156": {
+        "min_p_wave": 5.923,
+        "mean_diff": 5.048,
+        "min_s_wave": 10.224,
+        "max_s_wave": 18.833,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "158": {
+        "min_p_wave": 5.383,
+        "mean_diff": 5.402,
+        "min_s_wave": 9.309,
+        "max_s_wave": 16.862,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "159": {
+        "min_p_wave": 8.453,
+        "mean_diff": 6.786,
+        "min_s_wave": 14.631,
+        "max_s_wave": 21.278,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "162": {
+        "min_p_wave": 7.188,
+        "mean_diff": 7.009,
+        "min_s_wave": 12.196,
+        "max_s_wave": 26.581,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "176": {
+        "min_p_wave": 6.485,
+        "mean_diff": 5.84,
+        "min_s_wave": 11.198,
+        "max_s_wave": 17.536,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "181": {
+        "min_p_wave": 5.88,
+        "mean_diff": 5.014,
+        "min_s_wave": 10.145,
+        "max_s_wave": 18.821,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "191": {
+        "min_p_wave": 5.65,
+        "mean_diff": 5.052,
+        "min_s_wave": 9.76,
+        "max_s_wave": 15.124,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "230": {
+        "min_p_wave": 5.067,
+        "mean_diff": 5.259,
+        "min_s_wave": 8.772,
+        "max_s_wave": 16.971,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "231": {
+        "min_p_wave": 5.21,
+        "mean_diff": 5.444,
+        "min_s_wave": 9.014,
+        "max_s_wave": 17.297,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "232": {
+        "min_p_wave": 5.114,
+        "mean_diff": 5.605,
+        "min_s_wave": 8.872,
+        "max_s_wave": 18.592,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "233": {
+        "min_p_wave": 5.368,
+        "mean_diff": 5.728,
+        "min_s_wave": 9.315,
+        "max_s_wave": 18.767,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "234": {
+        "min_p_wave": 5.504,
+        "mean_diff": 5.466,
+        "min_s_wave": 9.52,
+        "max_s_wave": 16.959,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "240": {
+        "min_p_wave": 6.408,
+        "mean_diff": 5.78,
+        "min_s_wave": 10.941,
+        "max_s_wave": 23.063,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "241": {
+        "min_p_wave": 6.101,
+        "mean_diff": 5.216,
+        "min_s_wave": 10.449,
+        "max_s_wave": 20.601,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "242": {
+        "min_p_wave": 6.427,
+        "mean_diff": 5.501,
+        "min_s_wave": 11.038,
+        "max_s_wave": 21.162,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "243": {
+        "min_p_wave": 6.337,
+        "mean_diff": 5.332,
+        "min_s_wave": 10.953,
+        "max_s_wave": 20.189,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "244": {
+        "min_p_wave": 6.218,
+        "mean_diff": 5.272,
+        "min_s_wave": 10.692,
+        "max_s_wave": 20.432,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "245": {
+        "min_p_wave": 6.614,
+        "mean_diff": 5.97,
+        "min_s_wave": 11.29,
+        "max_s_wave": 23.105,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "246": {
+        "min_p_wave": 6.332,
+        "mean_diff": 5.339,
+        "min_s_wave": 10.937,
+        "max_s_wave": 19.373,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "247": {
+        "min_p_wave": 6.716,
+        "mean_diff": 6.227,
+        "min_s_wave": 11.412,
+        "max_s_wave": 23.826,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "248": {
+        "min_p_wave": 6.24,
+        "mean_diff": 6.027,
+        "min_s_wave": 10.577,
+        "max_s_wave": 24.011,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "250": {
+        "min_p_wave": 6.531,
+        "mean_diff": 6.211,
+        "min_s_wave": 11.134,
+        "max_s_wave": 24.538,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "251": {
+        "min_p_wave": 7.601,
+        "mean_diff": 7.304,
+        "min_s_wave": 12.911,
+        "max_s_wave": 27.01,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "252": {
+        "min_p_wave": 6.32,
+        "mean_diff": 5.315,
+        "min_s_wave": 10.922,
+        "max_s_wave": 20.107,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "253": {
+        "min_p_wave": 6.847,
+        "mean_diff": 5.987,
+        "min_s_wave": 11.679,
+        "max_s_wave": 22.265,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "254": {
+        "min_p_wave": 5.88,
+        "mean_diff": 5.014,
+        "min_s_wave": 10.145,
+        "max_s_wave": 18.821,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "255": {
+        "min_p_wave": 6.589,
+        "mean_diff": 5.445,
+        "min_s_wave": 11.309,
+        "max_s_wave": 19.713,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "256": {
+        "min_p_wave": 6.722,
+        "mean_diff": 5.938,
+        "min_s_wave": 11.636,
+        "max_s_wave": 18.261,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "257": {
+        "min_p_wave": 5.286,
+        "mean_diff": 4.993,
+        "min_s_wave": 9.128,
+        "max_s_wave": 15.227,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "258": {
+        "min_p_wave": 5.53,
+        "mean_diff": 5.704,
+        "min_s_wave": 9.583,
+        "max_s_wave": 18.684,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "259": {
+        "min_p_wave": 6.879,
+        "mean_diff": 6.523,
+        "min_s_wave": 11.926,
+        "max_s_wave": 20.864,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "260": {
+        "min_p_wave": 7.041,
+        "mean_diff": 6.042,
+        "min_s_wave": 11.995,
+        "max_s_wave": 22.53,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "261": {
+        "min_p_wave": 7.436,
+        "mean_diff": 6.245,
+        "min_s_wave": 12.686,
+        "max_s_wave": 21.983,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "262": {
+        "min_p_wave": 6.694,
+        "mean_diff": 6.065,
+        "min_s_wave": 11.557,
+        "max_s_wave": 18.296,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "263": {
+        "min_p_wave": 6.548,
+        "mean_diff": 6.206,
+        "min_s_wave": 11.123,
+        "max_s_wave": 24.198,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "264": {
+        "min_p_wave": 7.456,
+        "mean_diff": 6.368,
+        "min_s_wave": 12.752,
+        "max_s_wave": 22.555,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "265": {
+        "min_p_wave": 7.492,
+        "mean_diff": 6.34,
+        "min_s_wave": 12.818,
+        "max_s_wave": 22.336,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "266": {
+        "min_p_wave": 7.413,
+        "mean_diff": 7.343,
+        "min_s_wave": 12.57,
+        "max_s_wave": 27.789,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "267": {
+        "min_p_wave": 7.159,
+        "mean_diff": 6.318,
+        "min_s_wave": 12.218,
+        "max_s_wave": 23.038,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "268": {
+        "min_p_wave": 7.067,
+        "mean_diff": 6.004,
+        "min_s_wave": 12.075,
+        "max_s_wave": 21.896,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "269": {
+        "min_p_wave": 6.812,
+        "mean_diff": 6.761,
+        "min_s_wave": 11.585,
+        "max_s_wave": 26.481,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "270": {
+        "min_p_wave": 6.991,
+        "mean_diff": 5.905,
+        "min_s_wave": 11.956,
+        "max_s_wave": 21.594,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "271": {
+        "min_p_wave": 7.444,
+        "mean_diff": 6.11,
+        "min_s_wave": 12.851,
+        "max_s_wave": 17.614,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "272": {
+        "min_p_wave": 7.592,
+        "mean_diff": 6.206,
+        "min_s_wave": 13.1,
+        "max_s_wave": 17.862,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "273": {
+        "min_p_wave": 7.333,
+        "mean_diff": 6.049,
+        "min_s_wave": 12.658,
+        "max_s_wave": 17.666,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "274": {
+        "min_p_wave": 7.486,
+        "mean_diff": 6.146,
+        "min_s_wave": 12.933,
+        "max_s_wave": 17.63,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "275": {
+        "min_p_wave": 7.317,
+        "mean_diff": 6.028,
+        "min_s_wave": 12.623,
+        "max_s_wave": 17.408,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "276": {
+        "min_p_wave": 6.193,
+        "mean_diff": 5.192,
+        "min_s_wave": 10.617,
+        "max_s_wave": 17.296,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "277": {
+        "min_p_wave": 7.763,
+        "mean_diff": 6.514,
+        "min_s_wave": 13.408,
+        "max_s_wave": 18.817,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "278": {
+        "min_p_wave": 7.377,
+        "mean_diff": 6.146,
+        "min_s_wave": 12.791,
+        "max_s_wave": 18.264,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "279": {
+        "min_p_wave": 7.333,
+        "mean_diff": 6.049,
+        "min_s_wave": 12.658,
+        "max_s_wave": 17.666,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "280": {
+        "min_p_wave": 7.262,
+        "mean_diff": 5.976,
+        "min_s_wave": 12.52,
+        "max_s_wave": 17.865,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "281": {
+        "min_p_wave": 7.434,
+        "mean_diff": 6.087,
+        "min_s_wave": 12.815,
+        "max_s_wave": 18.092,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "282": {
+        "min_p_wave": 6.811,
+        "mean_diff": 6.232,
+        "min_s_wave": 11.754,
+        "max_s_wave": 18.89,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "283": {
+        "min_p_wave": 6.092,
+        "mean_diff": 5.168,
+        "min_s_wave": 10.496,
+        "max_s_wave": 17.105,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "284": {
+        "min_p_wave": 5.723,
+        "mean_diff": 5.307,
+        "min_s_wave": 9.88,
+        "max_s_wave": 16.094,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "285": {
+        "min_p_wave": 5.736,
+        "mean_diff": 5.423,
+        "min_s_wave": 9.907,
+        "max_s_wave": 16.612,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "286": {
+        "min_p_wave": 7.325,
+        "mean_diff": 6.015,
+        "min_s_wave": 12.625,
+        "max_s_wave": 17.966,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "287": {
+        "min_p_wave": 5.575,
+        "mean_diff": 5.908,
+        "min_s_wave": 9.677,
+        "max_s_wave": 19.465,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "288": {
+        "min_p_wave": 5.575,
+        "mean_diff": 5.908,
+        "min_s_wave": 9.677,
+        "max_s_wave": 19.465,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "289": {
+        "min_p_wave": 7.371,
+        "mean_diff": 6.651,
+        "min_s_wave": 12.583,
+        "max_s_wave": 24.128,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "290": {
+        "min_p_wave": 6.853,
+        "mean_diff": 6.356,
+        "min_s_wave": 11.703,
+        "max_s_wave": 24.695,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "291": {
+        "min_p_wave": 6.993,
+        "mean_diff": 5.722,
+        "min_s_wave": 12.008,
+        "max_s_wave": 20.052,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "292": {
+        "min_p_wave": 5.336,
+        "mean_diff": 5.117,
+        "min_s_wave": 9.213,
+        "max_s_wave": 16.385,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "293": {
+        "min_p_wave": 5.337,
+        "mean_diff": 5.596,
+        "min_s_wave": 9.238,
+        "max_s_wave": 17.809,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "294": {
+        "min_p_wave": 8.784,
+        "mean_diff": 7.411,
+        "min_s_wave": 15.206,
+        "max_s_wave": 22.139,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "295": {
+        "min_p_wave": 7.285,
+        "mean_diff": 7.066,
+        "min_s_wave": 12.402,
+        "max_s_wave": 27.057,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 7
+    },
+    "296": {
+        "min_p_wave": 7.02,
+        "mean_diff": 5.914,
+        "min_s_wave": 12.005,
+        "max_s_wave": 21.606,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "297": {
+        "min_p_wave": 6.639,
+        "mean_diff": 5.536,
+        "min_s_wave": 11.473,
+        "max_s_wave": 20.397,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 8
+    },
+    "298": {
+        "min_p_wave": 6.887,
+        "mean_diff": 5.636,
+        "min_s_wave": 11.824,
+        "max_s_wave": 19.75,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "299": {
+        "min_p_wave": 7.284,
+        "mean_diff": 5.996,
+        "min_s_wave": 12.568,
+        "max_s_wave": 17.533,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    },
+    "300": {
+        "min_p_wave": 5.259,
+        "mean_diff": 4.997,
+        "min_s_wave": 9.079,
+        "max_s_wave": 15.196,
+        "interval choosen": "min P-wave arrival + win_size(=15)",
+        "how many stas in interval": 9
+    }
+}
