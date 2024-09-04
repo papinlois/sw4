@@ -14,7 +14,7 @@ Here's the original repository of sw4: https://github.com/geodynamics/sw4.
 
 - **VCI_DC.in**: This file contain input parameters or configuration settings for a specific aspect of the SW4 simulations.
 
-- **VancouverIsland.ppmod**: This file is pfile generated for ou problem which defines the materials in all point.
+- **VancouverIsland.ppmod**: This file is pfile generated for a problem which defines the materials in all point.
 
 - **map_test.py**: A script used for generating maps related to the seismic data.
 
@@ -24,7 +24,7 @@ Here's the original repository of sw4: https://github.com/geodynamics/sw4.
 
 - **stations.csv**: This CSV file contains data regarding the location and attributes of stations used in the seismic data analysis.
 
-- **submit_test.txt**: This file contain instructionsfor submitting SW4 simulation jobs on Talapas (must remove the .txt extension).
+- **submit_test.txt**: This file contain instructions for submitting SW4 simulation jobs on Talapas (must remove the .txt extension).
 
 - **sw4FileFunctions.py**: This script contains custom functions elated to file handling within the SW4 project.
 
