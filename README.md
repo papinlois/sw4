@@ -27,3 +27,11 @@ Here's the original repository of sw4: https://github.com/geodynamics/sw4.
 - **submit_test.txt**: This file contain instructionsfor submitting SW4 simulation jobs on Talapas (must remove the .txt extension).
 
 - **sw4FileFunctions.py**: This script contains custom functions elated to file handling within the SW4 project.
+
+### NonLinLoc Folder:
+
+A new folder related to the NonLinLoc software has been added to the repository as of 09/04/24. The scripts within this folder are designed to assist in locating selected events from a catalog. Specifically, the folder includes:
+
+-   An example input file compatible with the NLLoc command for event location.
+-   A script to stack events, or not, and apply the P and S wave picker. The resulting seismic phase arrivals can then be formatted using another script for NLLoc.
+-   A work-*in-progress* notebook for generating the necessary grid files for event location, utilizing Vel2Grid and Grid2Time.
