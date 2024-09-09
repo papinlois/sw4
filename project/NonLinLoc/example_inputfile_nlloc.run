@@ -44,7 +44,7 @@ LOCPHASEID  S   S
 LOCQUAL2ERR 0.1 0.5 1.0 2.0 99999.9
 
 # Specifies the size and other parameters of an initial or nested 3D search grid.
-### have to made it my own
+### have to make it my own
 LOCGRID  459 300 24 -229.1281 -149.9985 -3.0  1.0 1.0 1.0  PROB_DENSITY  SAVE
 
 # Specifies selection criteria for phase residuals to be included in calculation of average P and S station residuals.
