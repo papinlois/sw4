@@ -56,7 +56,7 @@ LOCPHSTAT 9999.0 -1 9999.0 1.0 1.0 9999.9 -9999.9 9999.9
 
 # Specifies whether to determine take-off angles for the maximum likelihood hypocenter and sets minimum quality cutoff for saving angles and corresponding phases to the HypoInverse Archive file.
 
-LOCANGLES ANGLES_YES 5
+LOCANGLES ANGLES_NO 5
 
 # Specifies the magnitude calculation type and parameters. 
 # ML_HB:local Richer magnitude
