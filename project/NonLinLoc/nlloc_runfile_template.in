@@ -39,8 +39,8 @@ LOCGAU2 0.01 0.05 2.0
 
 # Specifies the mapping of phase codes in the phase/observation file.
 
-LOCPHASEID  P   P
-LOCPHASEID  S   S
+LOCPHASEID  P   P p Pn Pg
+LOCPHASEID  S   S s Sn Sg
 
 # Specifies the mapping of phase pick qualities phase/observation file to time uncertainties in seconds.
 
