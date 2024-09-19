@@ -157,7 +157,7 @@ GTFILES  ./model/layer  ./time/layer S
 #    angleMode (choice: ANGLES_YES ANGLES_NO) sets if take-off angles are calculated and an angles grid is output ( ANGLES_YES for angles calulcation or ANGLES_NO for no angles calculation)
 #
 
-GTMODE GRID3D ANGLES_YES
+GTMODE GRID3D ANGLES_NO
 
 # -----------------------------------------------------------------------------
 # description of source (e.g. seismic station) for calculating travel-time field
