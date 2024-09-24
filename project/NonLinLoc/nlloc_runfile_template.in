@@ -9,6 +9,10 @@
 
 LOCSIG Lois Papin -- UO
 
+# Comment about location run - written in some output files.
+
+LOCCOM Bostock_Loc
+
 # Specifies the directory path and filenames for observation files + input time grids + output files
 
 LOCFILES /projects/amt/cyrilj/NLLoc/BTF/obs/obs_pyocto/CNN_P_01_PBPN/2012/obs_CNN_P_01_PBPN_2012_300.obs NLLOC_OBS /projects/amt/cyrilj/NLLoc/BTF/pykonal/ttgrid_1D_averaged_Christeson/ttgrid /projects/amt/cyrilj/NLLoc/BTF/loc/loc_pyocto/CNN_P_01_PBPN/2012_run1/300/earthquake_pyocto
@@ -17,12 +21,14 @@ LOCFILES /projects/amt/cyrilj/NLLoc/BTF/obs/obs_pyocto/CNN_P_01_PBPN/2012/obs_CN
 # SAVE_NLLOC_ALL: save summary and event files of type NLLoc Hypocenter-Phase file , Phase Statistics file , Scatter file and Confidence Level file
 # SAVE_HYPOINV_SUM:save summary file only of type HypoInverse Archive file
 
-LOCHYPOUT SAVE_NLLOC_ALL SAVE_HYPOINV_SUM
+LOCHYPOUT SAVE_NLLOC_ALL SAVE_NLLOC_SUM
 
 # Specifies the search type and search parameters in the grid.
 # OCT:Octtree
 
-LOCSEARCH OCT 17 11 6 0.001 100000 10000 0 0
+#LOCSEARCH OCT 18 27 6 0.001 100000 10000 0 0 #Trugman
+#LOCSEARCH OCT 17 11 6 0.001 100000 10000 0 0 #Cyril
+LOCSEARCH  OCT 10 10 4 0.01 20000 5000 0 1 #NLLoc
 
 # Specifies the location method (algorithm) and method parameters.
 # EDT_OT_WT:weights EDT-sum probabilities by the variance of origin-time estimates over all pairs of readings. 

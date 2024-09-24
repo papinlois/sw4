@@ -35,7 +35,7 @@ CONTROL 1 54321
 #    rotAngle (float, min:-360.0, max:360.0) rotation angle of geographic north in degrees clockwise relative to the rectangular coordinates system Y-axis
 #
 
-TRANS SIMPLE 48.0 -124.5 0.0 
+TRANS LAMBERT 
 
 #
 # =============================================================================
