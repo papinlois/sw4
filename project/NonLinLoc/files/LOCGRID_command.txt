@@ -1,0 +1,2 @@
+#LOCGRID xNum yNum zNum xOrig yOrig zOrig dx dy dz gridType saveFlag
+LOCGRID 221 291 189 -55.0 -72.5 -1.0 0.5 0.5 0.5 PROB_DENSITY SAVE
