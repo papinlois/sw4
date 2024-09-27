@@ -21,7 +21,7 @@ LOCFILES /projects/amt/cyrilj/NLLoc/BTF/obs/obs_pyocto/CNN_P_01_PBPN/2012/obs_CN
 # SAVE_NLLOC_ALL: save summary and event files of type NLLoc Hypocenter-Phase file , Phase Statistics file , Scatter file and Confidence Level file
 # SAVE_HYPOINV_SUM:save summary file only of type HypoInverse Archive file
 
-LOCHYPOUT SAVE_NLLOC_ALL SAVE_NLLOC_SUM SAVE_HYPOINV_SUM
+LOCHYPOUT SAVE_NLLOC_ALL SAVE_NLLOC_SUM SAVE_HYPOINV_SUM FILENAME_PUBLIC_ID
 
 # Specifies the search type and search parameters in the grid.
 # OCT:Octtree
