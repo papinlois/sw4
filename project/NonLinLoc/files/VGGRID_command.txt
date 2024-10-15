@@ -1,2 +1,0 @@
-#VGGRID xNum yNum zNum xOrig yOrig zOrig dx dy dz gridType
-VGGRID 111 146 95 -55.0 -72.5 -1.0 1.0 1.0 1.0 SLOW_LEN 
