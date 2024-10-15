@@ -34,7 +34,7 @@ Here's the original repository of sw4: https://github.com/geodynamics/sw4.
 
 A new folder related to the NonLinLoc software has been added to the repository as of 09/04/24. The notebooks have been made to help create the travel-time grids in the software and execute the location of events. Here's how to use the notebooks and what they do briefly:
 
-1. **VelModel_NLLoc.ipynb**:
+1. **VelModel_NLLoc_v2.ipynb**:
    - Get the boundaries of our problem for later;
    - Prepare the velocity model:
 	   - Interpolations on the depths in km;
