@@ -1,0 +1,77 @@
+# =============================================================================
+# =============================================================================
+# NLLoc control file statements
+# =============================================================================
+# Simplified comments for clarity
+#
+
+# Identification of an individual, institiution or other entity - written in some output files.
+
+LOCSIG Lois Papin -- UO
+
+# Comment about location run - written in some output files.
+
+LOCCOM Bostock_Loc
+
+# Specifies the directory path and filenames for observation files + input time grids + output files
+
+LOCFILES /projects/amt/cyrilj/NLLoc/BTF/obs/obs_pyocto/CNN_P_01_PBPN/2012/obs_CNN_P_01_PBPN_2012_300.obs NLLOC_OBS /projects/amt/cyrilj/NLLoc/BTF/pykonal/ttgrid_1D_averaged_Christeson/ttgrid /projects/amt/cyrilj/NLLoc/BTF/loc/loc_pyocto/CNN_P_01_PBPN/2012_run1/300/earthquake_pyocto
+
+# Specifies the filetypes to be used for output.
+# SAVE_NLLOC_ALL: save summary and event files of type NLLoc Hypocenter-Phase file , Phase Statistics file , Scatter file and Confidence Level file
+# SAVE_HYPOINV_SUM:save summary file only of type HypoInverse Archive file
+
+LOCHYPOUT SAVE_NLLOC_ALL SAVE_NLLOC_SUM SAVE_HYPOINV_SUM FILENAME_PUBLIC_ID
+
+# Specifies the search type and search parameters in the grid.
+# OCT:Octtree
+
+#LOCSEARCH OCT 18 27 6 0.001 100000 10000 0 0 #Trugman
+#LOCSEARCH OCT 17 11 6 0.001 100000 10000 0 0 #Cyril
+#LOCSEARCH  OCT 10 10 4 0.01 20000 5000 0 1 #NLLoc
+LOCSEARCH  OCT 8 11 6 0.001 100000 10000 0 0 #Mine
+
+# Specifies the location method (algorithm) and method parameters.
+# EDT_OT_WT:weights EDT-sum probabilities by the variance of origin-time estimates over all pairs of readings. 
+
+LOCMETH EDT_OT_WT 9999.0 4 -1 -1 -1 -1 -1 1
+
+# Specifies parameters for Gaussian modelisation-error covariances between stations.
+
+LOCGAU 0.2 0.0
+
+# Specifies parameters for travel-time dependent modelisation-error.
+
+LOCGAU2 0.01 0.05 2.0
+
+# Specifies the mapping of phase codes in the phase/observation file.
+
+LOCPHASEID  P   P p Pn Pg
+LOCPHASEID  S   S s Sn Sg
+
+# Specifies the mapping of phase pick qualities phase/observation file to time uncertainties in seconds.
+
+LOCQUAL2ERR 0.1 0.5 1.0 2.0 99999.9
+
+# Specifies the size and other parameters of an initial or nested 3D search grid.
+
+LOCGRID  459 300 24 -229.1281 -149.9985 -3.0  1.0 1.0 1.0  PROB_DENSITY  SAVE
+
+# Specifies selection criteria for phase residuals to be included in calculation of average P and S station residuals.
+
+LOCPHSTAT 9999.0 -1 9999.0 1.0 1.0 9999.9 -9999.9 9999.9
+
+# Specifies whether to determine take-off angles for the maximum likelihood hypocenter and sets minimum quality cutoff for saving angles and corresponding phases to the HypoInverse Archive file.
+
+LOCANGLES ANGLES_NO 5
+
+# Specifies the magnitude calculation type and parameters. 
+# ML_HB:local Richer magnitude
+
+LOCMAG ML_HB 1.0 1.110 0.00189
+
+#
+# =============================================================================
+# END of NLLoc control file statements
+# =============================================================================
+# =============================================================================
