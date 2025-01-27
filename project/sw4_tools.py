@@ -67,10 +67,10 @@ def find_all_stations(base_dir):
     Identify all unique station names in the directory structure.
     Station names are assumed to be 3-4 characters before `_m` in filenames.
 
-    Args:
-        base_dir (str): Path to the base directory containing parent_dirs.
+    Parameters:
+        - base_dir (str): Base directory containing multiple parent directories.
 
-    Returns:
+    Return:
         list: A sorted list of unique station names.
     """
     station_set = set()  # Use a set to avoid duplicates
@@ -90,15 +90,15 @@ def read_gfs(base_dir, stas, comps, starttime):
     Dynamically reads Green's functions from all subdirectories in base_dir.
 
     Parameters:
-    - base_dir (str): Base directory containing multiple parent directories (e.g., "fam099").
-    - stas (list): List of station names.
-    - comps (list): List of moment tensor components ['mxx', 'mxy', 'mxz', 'myy', 'myz', 'mzz'].
-    - starttime (UTCDateTime): Start time to assign to the traces.
+        - base_dir (str): Base directory containing multiple parent directories.
+        - stas (list): List of station names.
+        - comps (list): List of moment tensor components ['mxx', 'mxy', 'mxz', 'myy', 'myz', 'mzz'].
+        - starttime (UTCDateTime): Start time to assign to the traces.
 
     Returns:
-    - gfs_streams (dict): Nested dictionary of Green's function streams:
-      Format: {station: {component: {'north': Trace, 'east': Trace, 'vertical': Trace}}}.
-    - short (list): List of stations/components missing **across all parent_dirs**.
+        - gfs_streams (dict): Nested dictionary of Green's function streams:
+        Format: {station: {component: {'north': Trace, 'east': Trace, 'vertical': Trace}}}.
+        - short (list): List of stations/components missing **across all parent_dirs**.
     """
     
     # Final green functions streams
@@ -178,12 +178,12 @@ def simul_waveforms(gfs_streams, stas):
     by summing Green's functions.
     
     Parameters:
-    - gfs_streams (dict): Green's function streams from `read_gfs`
-    - stas (list): List of stations
+        - gfs_streams (dict): Green's function streams from `read_gfs`
+        - stas (list): List of stations
 
-    Returns:
-    - displacement_streams (dict): Displacement Stream for each station
-      Format: {station: Stream (with Traces for N, E, Z)}
+    Return:
+        - displacement_streams (dict): Displacement Stream for each station
+        Format: {station: Stream (with Traces for N, E, Z)}
       
     NB: If you have normalized moment tensor components as inputs and a moment 
     magnitude M0, use this function. Otherwise, check the displacement expression 
@@ -224,14 +224,15 @@ def simul_waveforms(gfs_streams, stas):
 
     return displacement_streams
 
-def plot_displacement_streams_indiv(displacement_streams, stas):
+def plot_displacement_streams_indiv(base_dir, displacement_streams, stas):
     """
     Custom plot for displacement streams.
 
     Parameters:
-    - displacement_streams (dict): Displacement Stream for each station
+        - base_dir (str): Base directory containing multiple parent directories.
+        - displacement_streams (dict): Displacement Stream for each station
       Format: {station: Stream (with Traces for N, E, Z)}
-    - stas (list): List of stations
+      - stas (list): List of stations
     """
     for sta in stas:
         if sta not in displacement_streams:
@@ -260,16 +261,18 @@ def plot_displacement_streams_indiv(displacement_streams, stas):
         axes[-1].set_xlabel("Time (s)")
         plt.tight_layout()
         plt.show()
+        plt.savefig(base_dir + f"simul_{sta}.png", dpi=450)
 
-def plot_displacement_streams(displacement_streams, stas):
+def plot_displacement_streams(base_dir, displacement_streams, stas):
     """
     Custom plot for displacement streams with ?3 columns for N, E, Z and a row for each station.
     Divides the streams into multiple figures, each containing up to ? stations.
 
     Parameters:
-    - displacement_streams (dict): Displacement Stream for each station
+        - base_dir (str): Base directory containing multiple parent directories.
+        - displacement_streams (dict): Displacement Stream for each station
       Format: {station: Stream (with Traces for N, E, Z)}
-    - stas (list): List of stations
+      - stas (list): List of stations
     """
     components = ['N', 'E', 'Z']
     colors = ['b', 'g', 'r']
@@ -312,16 +315,13 @@ def plot_displacement_streams(displacement_streams, stas):
                 ax.set_ylabel(f"Station: {sta}" if col_idx == 0 else "")
                 ax.grid(True)
 
-        # Set x-axis label only for the bottom row
         if n_stas > 1:
             axes[-1][1].set_xlabel("Time (s)", fontsize=14)
         else:
             axes[0][1].set_xlabel("Time (s)", fontsize=14)
 
-        # Adjust layout to make space for the title
         plt.tight_layout(rect=[0, 0, 1, 0.96])
         plt.show()
 
         # Save each figure with a filename that indicates the range of stations
-        plt.savefig(f"{stas_chunk[0]}_to_{stas_chunk[-1]}.png", dpi=450)
-
+        plt.savefig(base_dir + f"simul_{stas_chunk[0]}_to_{stas_chunk[-1]}.png", dpi=450)
