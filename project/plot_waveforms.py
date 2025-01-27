@@ -32,7 +32,7 @@ if short:
 displacement_streams = sw4_tools.simul_waveforms(gfs_streams, stas)
 
 # Plot the waveforms
-sw4_tools.plot_displacement_streams_indiv(displacement_streams, stas)
+sw4_tools.plot_displacement_streams_indiv(base_dir, displacement_streams, stas)
 
 # =============================================================================
 # # Print and plot the results
@@ -44,4 +44,4 @@ sw4_tools.plot_displacement_streams_indiv(displacement_streams, stas)
 
 ##
 
-sw4_tools.plot_displacement_streams(displacement_streams, stas)
+sw4_tools.plot_displacement_streams(base_dir, displacement_streams, stas)
