@@ -35,13 +35,10 @@ displacement_streams = sw4_tools.simul_waveforms(gfs_streams, stas)
 sw4_tools.plot_displacement_streams_indiv(base_dir, displacement_streams, stas)
 
 # =============================================================================
-# # Print and plot the results
-# for sta in stas:
-#     print(f"Displacement Stream for Station {sta}:")
-#     print(displacement_streams[sta])
-#     displacement_streams[sta].plot()
+# # Plot with obspy 
+# sta=stas[0]
+# displacement_streams[sta].plot()
 # =============================================================================
 
-##
-
+# All streams with subplots
 sw4_tools.plot_displacement_streams(base_dir, displacement_streams, stas)
